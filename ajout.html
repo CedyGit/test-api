@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="ajout.css">
+    <title>Ajout</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header">
+                    <h2>Test Request<span class="title"> API</span></h2>
+					<a href="index.html">
+                        <button class="btn btn-secondary">
+						    <img src="img/plus.png" alt="">
+					    </button>
+                    </a>
+                </div>
+                <!-- form -->
+                <form action="" id="formulaire-ajout">
+                    <p class="form-title">Ajouter</p>
+                    <div class="form-group">
+                        <input type="text" id="title" name="title" class="form-control" placeholder="title" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id="body" name="body" cols="30" rows="5" placeholder="Body" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="userId" name="userId" class="form-control" placeholder="user ID" required>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-success" type="submit">Sauvegarder</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

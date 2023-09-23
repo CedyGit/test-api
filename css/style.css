@@ -1,0 +1,32 @@
+
+body{
+    background-color: aliceblue;
+}
+.header{
+    background-color: darkgray;
+    color: #fff;
+    height: 50%;
+}
+.header h2{
+    font-family: cursive;
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+.header span{
+    font-weight: 600;
+    color: aqua;
+}
+.header img{
+    width: 30px;
+    height: 30px;
+}
+.header button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 20px;
+    top: -18px;
+    float: right;
+}

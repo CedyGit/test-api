@@ -1,0 +1,59 @@
+body{
+    background-color: aliceblue;
+}
+.header{
+    background-color: darkgray;
+    color: #fff;
+    height: 25%;
+}
+.header h2{
+    font-family: cursive;
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+.header span{
+    font-weight: 600;
+    color: aqua;
+}
+.header img{
+    width: 30px;
+    height: 30px;
+}
+.header button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 20px;
+    top: -18px;
+    float: right;
+}
+/* form */
+.form-title{
+    color: #fff;
+    text-align: center;
+}
+form#formulaire-ajout {
+    background-color: darkgrey;
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+    margin-left: 290px;
+}
+input[type=text]{
+    width: 50%;
+    margin-left: 160px;
+    outline: none;
+    border-radius: 15px;
+}
+.btn.btn-success{
+    margin-left: 270px;
+}
+textarea{
+    width: 50%;
+    margin-left: 160px;
+    outline: none;
+    border-radius: 15px;
+    resize: none;
+}
